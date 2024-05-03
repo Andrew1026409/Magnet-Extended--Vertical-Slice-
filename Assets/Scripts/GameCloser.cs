@@ -8,7 +8,7 @@ public class GameCloser : MonoBehaviour
     void Update()
     {
         // Check if the backtick (`) key is pressed
-        if (Input.GetKeyDown(KeyCode.BackQuote))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             // Close the game
             CloseGame();
